@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "settings-loader"
+version = "0.0.1"
+description = "Loader for settings"
+authors = ["hound672 <hound672@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.730.0"
+pytest = "^5.2"
+pytest-cov = "^2.8"
+pytest-pythonpath = "^0.7.3"
+factory-boy = "^2.12"
+wemake-python-styleguide = "^0.12.5"
+ipython = "^7.8"
+# for toml
+toml = "^0.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
